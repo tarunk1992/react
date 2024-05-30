@@ -1,0 +1,24 @@
+.Recommended{
+    margin-left: 280px;
+    margin-top: 10px;
+}
+
+
+.Recommended h1{
+    font-size: 22px;
+    padding-left: 10px;
+    font-weight: 600;
+
+}
+.rec-btn{
+   
+}
+.Recommended .rec-btn .btns{
+    border: none;
+   background-color: coral; 
+   margin: 5px;
+   padding: 2px 5px;
+   border-radius: 10px;
+   color: white;
+   font-size: 14px;
+}

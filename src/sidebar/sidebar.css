@@ -1,0 +1,29 @@
+.Sidebar{
+       border-right: 2px solid #e5e5e5 ;
+       width: 20%;
+       height: 100%;
+       position: fixed;
+       display: flex;
+       flex-direction: column;
+       z-index: 99999;
+       align-items: center;
+    
+}
+
+.sidebar-containe{
+     overflow: scroll;
+     width: 50%;
+     overflow-x: hidden;
+}
+
+.sidebar-containe::-webkit-scrollbar{
+     display: block;
+}
+
+.Sidebar .logo{
+     font-size: 25px;
+     margin-bottom: 35px;
+     margin-top: 25px;
+     cursor: pointer;
+}
+

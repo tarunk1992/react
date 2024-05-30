@@ -1,0 +1,52 @@
+.Product{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 250px;
+}
+
+.Card{
+ margin: 20px;
+ /* border: 2px solid #ededed; */
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ padding: 20px;
+ cursor: pointer;
+}
+.Card .image{
+    width: 150px;
+    height: 90px;
+    
+
+}
+
+.card-dtls{
+    padding-top: 20px;
+}
+.card-dtls .name{
+    font-weight: 500;
+}
+.card-dtls .stars{
+    
+}
+.card-dtls .star{
+    font-size: 18px;
+    color: rgb(176, 176, 15);
+}
+.total-star{
+    font-size: 18px;
+    margin-left: 5px;  
+}
+.price{
+   font-size: 20px;
+}
+
+.card-dtls .btns{
+    border: none;
+  padding: 2px 0;
+ width: 100px;
+   border-radius: 10px;
+   background-color: coral; 
+    color: white;
+   font-size: 14px;
+   text-align: center;
+  
+}
