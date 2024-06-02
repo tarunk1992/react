@@ -37,7 +37,7 @@ function Nav({onInputChange,handleFilterChange,setItem,data}){
        </nav>
         </div>
          <div className='logo'>
-             <p>ShoesHouse</p>
+             <p>ShoesHouses</p>
             </div>
             <div className='Input'>
                <input type='text' placeholder='Search item by name and company'  
