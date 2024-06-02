@@ -1,6 +1,7 @@
 
 import './App.css';
 import Home from './Home';
+import './Responsive.css'
 
 
 

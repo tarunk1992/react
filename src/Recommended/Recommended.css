@@ -1,10 +1,16 @@
 .Recommended{
-    margin-left: 280px;
+   
     margin-top: 10px;
+    margin-bottom: 15px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+
 }
 
 
-.Recommended h1{
+.catComp h1{
     font-size: 22px;
     padding-left: 10px;
     font-weight: 600;
@@ -17,8 +23,22 @@
     border: none;
    background-color: coral; 
    margin: 5px;
-   padding: 2px 5px;
+   padding: 2px 9px;
    border-radius: 10px;
    color: white;
    font-size: 14px;
+}
+
+.Input1 input{
+    padding-left: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #f7f6f6;
+    outline: none;
+    position: relative;
+    padding: 8px ;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 500px;
+
 }

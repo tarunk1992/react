@@ -1,23 +1,40 @@
-.Nav{
-    border-bottom: 2px solid #f3f3f3;
-   
- 
+
+.Navigation .logo{
 }
 
+.Navigation .logo p{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: coral ;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: serif;
+  
+}
+.section{
+    padding: 10px 8px 0;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    background-color: antiquewhite;
+}
 .Navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    padding: 20px;
-    z-index: 999;
-    margin-left: 270px;
+    border-bottom: 2px solid #f3f3f3;
+
+   
     
     
 }
 .Input input{
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
     background-color: #f7f6f6;
     outline: none;
@@ -25,11 +42,40 @@
     padding: 8px ;
     border-radius: 10px;
     cursor: pointer;
+    width: 500px;
 
+}
+
+.product{
+    padding-top: 100px;
 }
 
 .Icons .icons{
        color: black;
        font-size: 20px;
       margin-left: 10px;
+}
+
+.togglebtn{
+    font-size: 24px;
+    color: coral; 
+}
+
+.nav-menu{
+     /* left:-200px; */
+     top: 70px;
+    transition: 850ms;
+    height: 100%;
+    background-color:white;
+    width: 200px;
+    position: fixed;
+    z-index: 99999;
+    right: 100%;
+    margin-top: 10px;
+    overflow: scroll;
+}
+
+.nav-menu.active{
+left: 30px;
+transition: 350ms;
 }

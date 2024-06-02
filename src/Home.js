@@ -44,10 +44,22 @@ const handleFilterChange = (select) => {
 
     return(
         <div >
-            <Sidebar handleFilterChange={handleFilterChange} setItem={setItem} data={data} ></Sidebar>
+           
         <Nav onInputChange={onInputChange}></Nav>
-        <Recommended handleFilterChange={handleFilterChange} setItem={setItem} data={data}></Recommended>
+ 
+        <div className="container product">
+            <div className="row  ">
+                <div className="col-md-2">
+                <Sidebar handleFilterChange={handleFilterChange} setItem={setItem} data={data} ></Sidebar>
+                </div>
+                <div className="col-md-10">
+                <Recommended onInputChange={onInputChange} handleFilterChange={handleFilterChange} setItem={setItem} data={data}></Recommended>
         <Product item={item}></Product>
+                </div>
+            </div>
+        </div>
+        
+    
         
         </div>
     )

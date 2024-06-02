@@ -1,0 +1,53 @@
+
+@media (min-width: 1536px) {
+  
+}
+
+@media (max-width: 1440px) {
+
+}
+
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 1366px) {
+    
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (max-width: 991px) {
+    
+}
+
+@media (min-width: 768px) {
+ .catCategory{
+    display: none;
+} 
+.Input1{
+    display: none;
+}
+ 
+}
+@media (max-width: 767px) {
+    .Input{
+        display: none;
+    }
+    .sidebar-containe{
+        display: none;
+      
+    }
+.Product{
+        text-align: center;
+}
+.card-dtls .btns{
+    margin: 0 auto;
+}
+}
+
+@media (min-width: 576px) {
+
+}
