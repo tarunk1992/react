@@ -20,7 +20,7 @@ function Nav({onInputChange,handleFilterChange,setItem,data}){
    }
     return(
       <section className='section'>
-        <div className='container'>
+       
          <div className='Navigation'>
          <div className='catCategory' >
        
@@ -37,7 +37,7 @@ function Nav({onInputChange,handleFilterChange,setItem,data}){
        </nav>
         </div>
          <div className='logo'>
-             <p>ShoesHouses</p>
+             <p>ShoesHouse</p>
             </div>
             <div className='Input'>
                <input type='text' placeholder='Search item by name and company'  
@@ -57,7 +57,7 @@ function Nav({onInputChange,handleFilterChange,setItem,data}){
 
             </div>
         </div>
-        </div>
+       
         </section>
     )
 }

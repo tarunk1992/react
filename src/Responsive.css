@@ -1,14 +1,16 @@
 
 @media (min-width: 1536px) {
-  
+ 
 }
 
 @media (max-width: 1440px) {
-
+   
 }
 
 @media (max-width: 1024px) {
-    
+    .Input input{
+        width: 350px;
+    }
 }
 
 @media (max-width: 1366px) {
@@ -29,16 +31,41 @@
 } 
 .Input1{
     display: none;
+    height: 40px;
 }
  
 }
-@media (max-width: 767px) {
+
+@media (max-width: 768px){
     .Input{
         display: none;
     }
     .sidebar-containe{
         display: none;
       
+    }
+}
+
+@media (min-width: 767px){
+
+}
+
+@media (max-width: 767px) {
+    /* .Input{
+        display: none;
+    }
+    .sidebar-containe{
+        display: none;
+      
+    } */
+    .Navigation .logo p{
+        font-size: 22px;
+        font-weight: 500;
+  
+      
+    }
+    .Input input{
+        width: 50px;
     }
 .Product{
         text-align: center;
@@ -48,6 +75,14 @@
 }
 }
 
-@media (min-width: 576px) {
-
+@media (max-width: 576px) {
+    .nav-menu.active{
+        left: 0;
+        transition: 450ms;
+        }
+        .Input1 input{
+            width: 350px;
+        }
 }
+
+

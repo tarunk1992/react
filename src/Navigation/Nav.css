@@ -21,12 +21,14 @@
     position: fixed;
     width: 100%;
     background-color: antiquewhite;
+   
 }
 .Navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid #f3f3f3;
+    margin: 0 10px;
 
    
     
@@ -42,7 +44,7 @@
     padding: 8px ;
     border-radius: 10px;
     cursor: pointer;
-    width: 500px;
+    width: 600px;
 
 }
 
@@ -63,6 +65,10 @@
 
 .nav-menu{
      /* left:-200px; */
+     display: flex;
+    
+     align-items: center;
+     justify-content: center;
      top: 70px;
     transition: 850ms;
     height: 100%;
@@ -72,6 +78,7 @@
     z-index: 99999;
     right: 100%;
     margin-top: 10px;
+    padding-top: 120px;
     overflow: scroll;
 }
 
