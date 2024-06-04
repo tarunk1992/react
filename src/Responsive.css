@@ -79,10 +79,21 @@
     .nav-menu.active{
         left: 0;
         transition: 450ms;
+       
         }
         .Input1 input{
             width: 350px;
         }
+}
+
+@media (max-width: 400px) {
+    .nav-menu.active{
+        left: 0;
+        transition: 450ms;
+       top: -50px;
+       z-index: -999999;
+        }
+      
 }
 
 
