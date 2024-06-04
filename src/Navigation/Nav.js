@@ -9,6 +9,7 @@ import Category from '../sidebar/category/Category';
 import Sidebar from '../sidebar/Sidebar'
 import Price from '../sidebar/price/Price';
 import Color from '../sidebar/color/Color';
+import Sidenev from './Sidenev.js';
 
 
 function Nav({onInputChange,handleFilterChange,setItem,data}){
@@ -27,11 +28,13 @@ function Nav({onInputChange,handleFilterChange,setItem,data}){
         <GiHamburgerMenu className='togglebtn' onClick={toggle}/>
         {/* <RxCross2  className='togglebtn' /> */}
         <nav className={sideBar ? 'nav-menu active' : 'nav-menu'}>
-        <div className=''>
+        <div className='Nav-menu'>
      
-        <Category ></Category>
+         <Sidenev  handleFilterChange={handleFilterChange} setItem={setItem} data={data}></Sidenev>
+     
+        {/* <Category ></Category>
         <Price></Price>
-        <Color></Color>
+        <Color></Color> */}
        
        </div>
        </nav>

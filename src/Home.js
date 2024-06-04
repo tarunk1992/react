@@ -45,7 +45,7 @@ const handleFilterChange = (select) => {
     return(
         <div >
            
-        <Nav onInputChange={onInputChange}></Nav>
+        <Nav onInputChange={onInputChange}  handleFilterChange={handleFilterChange} setItem={setItem} data={data}></Nav>
  
         <div className="container product">
             <div className="row  ">
