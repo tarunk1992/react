@@ -1,9 +1,9 @@
 
 
-function Sidenev ({handleFilterChange,setItem,data}){
+function Sidenev ({handleFilterChange,setItem,data,onClick}){
     return(
      
-     <div className='Sidenev'>
+     <div className='Sidenev' onClick={onClick}>
 
      <div className='Category'>
      <h4>Category</h4>

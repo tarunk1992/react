@@ -30,7 +30,7 @@ function Nav({onInputChange,handleFilterChange,setItem,data}){
         <nav className={sideBar ? 'nav-menu active' : 'nav-menu'}>
         <div className='Nav-menu'>
      
-         <Sidenev  handleFilterChange={handleFilterChange} setItem={setItem} data={data}></Sidenev>
+         <Sidenev  onClick={toggle} handleFilterChange={handleFilterChange} setItem={setItem} data={data}></Sidenev>
      
         {/* <Category ></Category>
         <Price></Price>
