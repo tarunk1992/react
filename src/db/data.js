@@ -2,6 +2,7 @@ import { AiFillStar } from "react-icons/ai";
 
 const data = [
   {
+    id: 1,
     img: "https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg",
     title: "Nike Air Monarch IV",
     star: <AiFillStar className="rating-star" />,
@@ -13,6 +14,7 @@ const data = [
     category: "sneakers",
   },
   {
+    id: 2,
     img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
     title: "Nike Air Vapormax Plus",
     star: <AiFillStar className="rating-star" />,
@@ -25,6 +27,7 @@ const data = [
   },
 
   {
+    id: 3,
     img: "https://m.media-amazon.com/images/I/51+P9uAvb1L._AC_UY695_.jpg",
     title: "Nike Waffle One Sneaker",
     star: <AiFillStar className="rating-star" />,
@@ -36,6 +39,7 @@ const data = [
     category: "sneakers",
   },
   {
+    id: 4,
     img: "https://m.media-amazon.com/images/I/71oEKkghg-L._AC_UX575_.jpg",
     title: "Nike Running Shoe",
     star: <AiFillStar className="rating-star" />,
@@ -47,6 +51,7 @@ const data = [
     category: "sneakers",
   },
   {
+    id: 5,
     img: "https://m.media-amazon.com/images/I/41M54ztS6IL._AC_SY625._SX._UX._SY._UY_.jpg",
     title: "Flat Slip On Pumps",
     star: <AiFillStar className="rating-star" />,

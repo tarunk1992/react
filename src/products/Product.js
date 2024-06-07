@@ -3,7 +3,7 @@ import './product.css'
 import { FaStar } from "react-icons/fa";
 import { useState } from 'react';
 import Recommended from '../Recommended/Recommende';
-
+import { Link } from 'react-router-dom';
 function Product({item}){
    
 
@@ -36,7 +36,8 @@ function Product({item}){
              </h3>
              <h3 className='price'>Price :  ${val.newPrice}</h3>
              <div className='btns'>
-             <button className='btns'>Add to Card</button>
+               <Link to={'/Description/'+val.id}> <button className='btns'>Add to Card</button></Link>
+            
              </div>
 
            </div>

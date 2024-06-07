@@ -5,6 +5,8 @@ import Sidebar from "./sidebar/Sidebar"
 import data from './db/data'
 import { useState } from "react"
 import Category from "./sidebar/category/Category"
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom"
+import Description from './Description'
 
 
 function Home(){
@@ -54,7 +56,13 @@ const handleFilterChange = (select) => {
                 </div>
                 <div className="col-md-10">
                 <Recommended onInputChange={onInputChange} handleFilterChange={handleFilterChange} setItem={setItem} data={data}></Recommended>
-        <Product item={item}></Product>
+        <BrowserRouter>
+       <Routes>
+        <Route path="/"  element={  <Product item={item}></Product>}></Route>
+        <Route path="/Description/:id"  element={<Description></Description>}></Route>
+       </Routes>
+        </BrowserRouter>
+      
                 </div>
             </div>
         </div>

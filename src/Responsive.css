@@ -76,6 +76,10 @@
 }
 
 @media (max-width: 576px) {
+    .nav-menu{
+        align-items: unset;
+        padding: 0;
+    }
     .nav-menu.active{
         left: 0;
         transition: 450ms;
@@ -86,14 +90,6 @@
         }
 }
 
-@media (max-width: 400px) {
-    .nav-menu.active{
-        left: 0;
-        transition: 450ms;
-       /* top: -50px; */
-       z-index: -999999;
-        }
-      
-}
+
 
 
